@@ -32,9 +32,12 @@
       /* border: 1px solid; */
       justify-content: space-around;
       font-size: 18px;
-
-
     }
+    .top-menu1 a:hover {
+      text-decoration: underline;
+      text-underline-position: under
+    }
+
     .top-menu2 {
       display: flex;
       width: 500px;
@@ -56,7 +59,7 @@
       background-size: cover;
       color: white;
       padding: 30px;
-      margin: 0 auto;
+      margin:
     }
     h1 {
       font-size: 50px;
@@ -125,6 +128,9 @@
     .small a {
       margin: 10px;
     }
+    .small {
+      margin-bottom: 10px;
+    }
     .one,.set {
      margin: 20px;
     }
@@ -145,7 +151,30 @@
     em {
       font-size: 14px;
       color: rgb(119, 119, 119);
+    }
+    .bottom-all {
+      border: 1px solid;
+      display: flex;
+      width: 100%;
+      height: 260px;
+      padding: 40px;
 
+      background-color: rgb(43, 42, 41);
+
+    }
+    .bottom-left {
+      flex-basis: 20%;
+    }
+    .bottom-mid {
+      flex-basis: 50%;
+    }
+    .bottom-right {
+      flex-basis: 30%;
+      align-items: baseline;
+    }
+    .span1,.span2 {
+      font-size: 14px;
+      line-height: 26px;
     }
 
     </style>
@@ -326,6 +355,37 @@
           </li>
         </a>
       </ul>
+    </div>
+<!--  -->
+    <div class="bottom-all">
+      <div class="bottom-left">
+        <span style="color:white;" class="span1">
+          <span style="color:rgb(247, 213, 77);">개인정보 처리방침</span><br>
+          위치정보 이용약관<br>
+          사이트맵<br>
+          임차문의<br>
+          고객센터<br>
+          인재채용
+        </span>
+      </div>
+      <div class="bottom-mid">
+        <span style="font-weight:normal;color:rgb(143, 143, 143);" class="span2">
+          한국맥도날드(유)<br>
+          대표이사:김민철<br>
+          사업자등록번호:101-81-26409<br>
+          전화주문:1600-5252<br>
+          COPYRIGHT © 2019 ALL RIGHTS RESERVED BY McDonald's.
+        </span>
+      </div>
+      <div class="bottom-right">
+        <div>
+          <i style="color:white; font-size:45px;" class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp&nbsp
+          <i style="color:white ;font-size:45px;" class="fa fa-instagram" aria-hidden="true"></i>&nbsp&nbsp
+          <i style="color:white; font-size:45px;" class="fa fa-youtube-play" aria-hidden="true"></i>&nbsp&nbsp
+          <i style="color:white; font-size:45px;" class="fa fa-plus-square" aria-hidden="true"></i> &nbsp&nbsp
+          <img style="height:60px; position:relative; top:15px;" src="wa.png" alt="">
+        </div>
+      </div>
     </div>
   </body>
 </html>
